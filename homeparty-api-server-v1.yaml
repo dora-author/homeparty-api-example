@@ -49,12 +49,13 @@ info:
       * 샘플 응답
       * 각 응답 상태 코드에 대한 설명
 
-    본 가이드에서 설명하는 홈파티 API의 종류는 아래와 같습니다.
-    * 
-
-
     *- Note: 위 정보는 본 가이드의 각 홈파티 API 섹션에서 상세히 다룹니다.*      
     
+    <br>
+    
+    본 가이드에서 설명하는 홈파티 API의 종류는 아래와 같습니다.
+      * 인가(Authorization) API
+
     <br>
 
     <h3>홈파티 API 요청하기</h3>
@@ -151,11 +152,7 @@ tags:
     description: |
       인가(Authorization) API는 홈파티 서비스의 다양한 사용자 기능을 적용하기에 앞서 사용자 접근 권한을 얻기 위해 요청하는 API입니다.
       인가 API는 클라이언트 측 요청에 대한 사용자 정보를 서버 측으로 전달하고 서버 측 응답에 대한 생성된 인가 토큰 및 코드을 클라이언트 측에 전달하거나 생성된 토큰 및 코드가 유효한지 검증 결과를 전달합니다. 
-      
-    description2: |
         
-
-
   #- name: API Samples
   #  description: API Samples는 고객이 클라이언트의 결제시스템을 통해 제품을 결제할 때 필요한 요청과 응답을 전달해주는 인터페이스입니다. 
 
@@ -301,11 +298,11 @@ components:
         when: 2022-07-25T19:09:09
 
     responses:
-    BadRequest:
-      description: 필수 정보가 누락된 잘못된 요청
-    UnauthorizedError:
-      description: 인증 받지 못한 상태이거나 잘못된 인증 요청.
-    Forbidden:
-      description: 권한 없음
-    NotFound:
-      description: 찾지 못함
+      BadRequest:
+        description: 필수 정보가 누락된 잘못된 요청
+      UnauthorizedError:
+        description: 인증 받지 못한 상태이거나 잘못된 인증 요청.
+      Forbidden:
+        description: 권한 없음
+      NotFound:
+        description: 찾지 못함

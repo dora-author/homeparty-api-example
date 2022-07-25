@@ -8,7 +8,7 @@ window.onload = function() {
 	//url: "./openapi_openweathermap.yml",
    //url: "https://dora-author.me/api/pay-api-server-v1.yaml",
     //url: "./pay-api-server-v1.yaml",
-    //url: "./nuri-api-server-v1.yaml",
+    //url: "./homeparty-api-server-v1.yaml",
     //url: "./nuri-api-docs.yaml",
     url: "https://nuridocs.github.io/homeparty-api-example/homeparty-api-server-v1.yaml",
 	defaultModelsExpandDepth: -1,
