@@ -297,12 +297,12 @@ components:
         detail: tokenType은 필수 입력입니다.
         when: 2022-07-25T19:09:09
 
-    responses:
-      BadRequest:
-        description: 필수 정보가 누락된 잘못된 요청
-      UnauthorizedError:
-        description: 인증 받지 못한 상태이거나 잘못된 인증 요청.
-      Forbidden:
-        description: 권한 없음
-      NotFound:
-        description: 찾지 못함
+    # responses:
+    #   BadRequest:
+    #     description: 필수 정보가 누락된 잘못된 요청
+    #   UnauthorizedError:
+    #     description: 인증 받지 못한 상태이거나 잘못된 인증 요청.
+    #   Forbidden:
+    #     description: 권한 없음
+    #   NotFound:
+    #     description: 찾지 못함
